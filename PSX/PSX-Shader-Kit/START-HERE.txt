@@ -1,0 +1,11 @@
+PSX SHADER KIT
+
+1. Extract this ZIP.
+2. Open project.godot with Godot 4.7.2 (Compatibility).
+3. Press F5. Press Esc for settings; hold Tab to compare.
+
+To use only the shaders, copy PSXRender into your own Godot project.
+Follow PSXRender/README.md for scene setup and the psx_wobble group.
+
+This download is editable Godot source, not a browser game or Windows executable.
+Web/mobile are not tested. See LICENSE.txt for usage terms.

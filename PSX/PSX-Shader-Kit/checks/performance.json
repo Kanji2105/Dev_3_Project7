@@ -1,0 +1,34 @@
+[
+  {
+    "draw_calls": 43.0,
+    "median_frame_ms": 2.539,
+    "mode": "Original",
+    "p95_frame_ms": 2.746,
+    "static_memory": 112794586.0,
+    "video_memory": 43245977.0
+  },
+  {
+    "draw_calls": 43.0,
+    "median_frame_ms": 2.144,
+    "mode": "Mild PSX",
+    "p95_frame_ms": 2.901,
+    "static_memory": 112795514.0,
+    "video_memory": 37716377.0
+  },
+  {
+    "draw_calls": 43.0,
+    "median_frame_ms": 2.113,
+    "mode": "Strong PSX",
+    "p95_frame_ms": 2.592,
+    "static_memory": 112793486.0,
+    "video_memory": 36316145.0
+  },
+  {
+    "draw_calls": 22.0,
+    "median_frame_ms": 1.858,
+    "mode": "Eco",
+    "p95_frame_ms": 2.149,
+    "static_memory": 112794378.0,
+    "video_memory": 37698545.0
+  }
+]

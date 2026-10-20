@@ -1,0 +1,7 @@
+PSX SHADER KIT - USAGE TERMS
+
+You may use and modify the included shaders and demo assets in free or commercial games.
+Credit is optional. Suggested credit: PSX Shader Kit by Jericowalang.
+You may distribute them as part of your game.
+You may not sell the included content, including modified versions, as a standalone shader or asset pack.
+These terms apply only to the content included in this download.
