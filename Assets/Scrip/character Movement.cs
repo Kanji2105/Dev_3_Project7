@@ -3,6 +3,7 @@ using UnityEngine;
 public class SimplePlayerMove : MonoBehaviour
 {
     public float speed = 4f;
+   public bool isGrounded = false;
 
     void Update()
     {
@@ -12,5 +13,16 @@ public class SimplePlayerMove : MonoBehaviour
         Vector3 move = transform.right * horizontal + transform.forward * vertical;
 
         transform.position += move * speed * Time.deltaTime;
+    }
+    void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject.CompareTag("Ground"))
+            isGrounded = true;
+    }
+
+    void OnCollisionExit(Collision col)
+    {
+        if (col.gameObject.CompareTag("Ground"))
+            isGrounded = false;
     }
 }
